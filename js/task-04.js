@@ -46,4 +46,4 @@ CountPlugin.prototype.increment = function () {
     this._value += this._step;
     };
     
-    new CountPlugin({rootSelector: '#counter', step: 1, counterValue: 0});
+new CountPlugin({rootSelector: '#counter', step: 1, counterValue: 0});
