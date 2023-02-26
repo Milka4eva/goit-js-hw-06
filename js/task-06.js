@@ -1,4 +1,4 @@
-document.querySelector("#validation-input").onblur = function() {
+document.querySelector('#validation-input').onblur = function() {
   console.log(this.value.length);
   if (this.getAttribute('data-length') > this.value.length) { 
     this.classList.remove('valid');
